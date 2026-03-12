@@ -1,0 +1,45 @@
+/* :root{
+    --primary-color:#ad5afacc;
+    --text-color:white;
+    --secondary-color:#e3cff5cc;
+} */
+
+/* :root{
+    --primary-color:#fa5a5acc;
+    --text-color:white;
+    --secondary-color:#f5cfcfcc;
+} */
+
+/* :root{
+    --primary-color:#fa5ad7cc;
+    --text-color:rgb(255, 255, 255);
+    --secondary-color:#f5cfeacc;
+} */
+
+:root{
+    --primary-color:#faed5acc;
+    --text-color:white;
+    --secondary-color:#f5f3cfcc;
+}
+body{
+    background-color: var(--secondary-color);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+nav{
+    background-color: var(--primary-color);
+    padding: 12px 0;
+}
+ul li{
+    list-style: none;
+    display: inline;
+    padding: 23px ;
+    font-weight: bolder;
+}
+ul li a{
+    color: var(--text-color);
+    text-decoration: none;
+}
