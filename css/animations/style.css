@@ -1,0 +1,48 @@
+.container{
+    background-color:rgb(9,106,106) ;
+    height: 80vh;
+    width: 30vw;
+}
+
+.box{
+    width: 34px;
+    height: 45px;
+    background-color: aqua;
+    /* animation-name: harryKaAnimation;
+    animation-duration: 3s ;
+     animation-iteration-count: 3;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-in-out;
+    animation-delay: 1s ;
+    animation-direction: alternate-reverse;
+    animation-play-state: paused; */
+    animation: harryKaAnimation 3s ease-in-out 1 forwards,
+            harry2 3s ease-in-out 3s 1;
+}
+
+@keyframes harryKaAnimation{
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: yellow;
+        transform:translate(1000px);
+    }
+}
+@keyframes harry2 {
+    0%{
+        transform:rotate(100deg);
+    }
+    30%{
+        transform: rotate(200deg);
+    }
+    50%{
+        transform: rotate(220deg);
+    }
+    80%{
+        transform: rotate(300deg);
+    }
+    100%{
+        transform: rotate(310deg) ;
+    }
+}
